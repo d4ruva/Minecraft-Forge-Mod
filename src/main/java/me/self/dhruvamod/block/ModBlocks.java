@@ -15,7 +15,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class ModBLocks {
+public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
             =DeferredRegister.create(ForgeRegistries.BLOCKS, Dhruvamod.MOD_ID);
 
