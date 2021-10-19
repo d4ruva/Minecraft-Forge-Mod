@@ -12,8 +12,8 @@ public class Items {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Dhruvamod.MOD_ID);
 
-    public static final RegistryObject<Item> TITANIUM_ORE = ITEMS.register("titanium_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus bus){
         ITEMS.register(bus);

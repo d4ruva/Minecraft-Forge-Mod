@@ -1,4 +1,5 @@
 {
   "item.dhruvamod.titanium_ingot": "Titanium Ore",
-  "block.dhruvamod.titanium_block": "Titanium Block"
+  "block.dhruvamod.titanium_block": "Titanium Block",
+  "itemGroup.tutorial_tab": "Tutorial Tab"
 }
