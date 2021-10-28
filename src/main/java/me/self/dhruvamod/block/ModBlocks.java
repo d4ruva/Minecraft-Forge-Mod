@@ -1,7 +1,7 @@
 package me.self.dhruvamod.block;
 
 import me.self.dhruvamod.Dhruvamod;
-import me.self.dhruvamod.init.Items;
+import me.self.dhruvamod.init.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;

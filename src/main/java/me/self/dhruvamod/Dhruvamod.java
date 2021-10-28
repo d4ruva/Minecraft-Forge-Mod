@@ -1,7 +1,8 @@
 package me.self.dhruvamod;
 
 import me.self.dhruvamod.block.ModBlocks;
-import me.self.dhruvamod.init.Items;
+import me.self.dhruvamod.init.ModItems;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -14,7 +15,7 @@ public class Dhruvamod {
     public Dhruvamod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Items.register(bus);
+        ModItems.register(bus);
         ModBlocks.register(bus);
         MinecraftForge.EVENT_BUS.register(this);
     }
