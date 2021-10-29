@@ -1,5 +1,6 @@
 {
   "item.dhruvamod.titanium_ingot": "Titanium Ore",
   "block.dhruvamod.titanium_block": "Titanium Block",
-  "itemGroup.tutorial_tab": "Tutorial Tab"
+  "itemGroup.tutorial_tab": "Tutorial Tab",
+  "item.dhruvamod.totem_of_dying": "Totem Of Dying"
 }

@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
             new CreativeModeTab("tutorial_tab") {
                 @Override
                 public ItemStack makeIcon() {
-                    return new ItemStack(Items.TITANIUM_INGOT.get());
+                    return new ItemStack(ModItems.TITANIUM_INGOT.get());
                 }
     };
 }
